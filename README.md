@@ -42,35 +42,36 @@ Our data model consists of 14 unique entities:
 
 ## Data Dictionary
 
-*(Below is a sample of our data dictionary.  Please see the full PDF/Excel file in the repository for all 14 tables).*
+*(Below is our data dictionary. This dictionary shows each of the 14 entities and every attribute within each entity in our database).*
 
-<img width="618" height="194" alt="staffrole" src="https://github.com/user-attachments/assets/2f62e4d8-a244-4788-8353-ff487d06cbe9" />
+<img width="616" height="190" alt="StaffRole" src="https://github.com/user-attachments/assets/1d091d8e-ccf5-4925-98de-227e50a1f11a" />
 
+<img width="616" height="382" alt="Staff" src="https://github.com/user-attachments/assets/d0d2383a-aaa8-4db4-8ee2-47d06367e12a" />
 
-### Table: `Result`
+<img width="616" height="194" alt="AthleteStaff" src="https://github.com/user-attachments/assets/891b2a2c-d49b-4a48-a01d-0be175053d52" />
 
-| **Column Name** | **Data Type** | **Key** | **Description** | 
-| :--- | :--- | :--- | :--- |
-| ResultID | INT | PK | Unique identifier for a specific outcome record. | 
-| AthleteID | INT | FK | References `Athlete.AthleteID`. Identifies the competitor. | 
-| EventID | INT | FK | References `Event.EventID`. Identifies the competition. | 
-| MedalID | INT | FK | References `Medal.MedalID`. Indicates Gold, Silver, Bronze, or None. | 
-| ScoreOrTime | DECIMAL(10,3) |  | The objective metric achieved (e.g., 9.58 seconds or 15.400 points). | 
-| Placement | INT |  | The final rank (1, 2, 3, etc.). NULL if disqualified. | 
-| IsDisqualified | TINYINT(1) |  | 0 = False, 1 = True. Flags if the score was invalidated. | 
+<img width="614" height="355" alt="Country" src="https://github.com/user-attachments/assets/ff8206f5-92b4-4610-84fb-b564ee5fa208" />
 
-### Table: `Athlete`
+<img width="618" height="438" alt="Athlete" src="https://github.com/user-attachments/assets/3d1a82aa-b078-49b9-9976-4775eeffed7b" />
 
-| **Column Name** | **Data Type** | **Key** | **Description** | 
-| :--- | :--- | :--- | :--- |
-| AthleteID | INT | PK | Unique identifier for the athlete. | 
-| CountryID | INT | FK | References `Country.CountryID`. The nation they represent. | 
-| FirstName | VARCHAR(50) |  | Athlete's first name. | 
-| LastName | VARCHAR(50) |  | Athlete's last name. | 
-| Gender | VARCHAR(10) |  | Gender of the athlete (Male, Female). | 
-| DateOfBirth | DATE |  | Used to dynamically calculate the athlete's age. | 
-| Hometown | VARCHAR(100) |  | City of origin. | 
-| DayJob | VARCHAR(100) |  | Their real-world profession outside of sports. | 
+<img width="619" height="475" alt="Results" src="https://github.com/user-attachments/assets/6a36cae3-36e3-449a-bda8-eb7b9c5b170e" />
+
+<img width="617" height="195" alt="Medals" src="https://github.com/user-attachments/assets/6967b7aa-67df-49f9-b00c-a983def749b3" />
+
+<img width="617" height="170" alt="Sport" src="https://github.com/user-attachments/assets/83aafcd0-2e10-4b34-9ed3-1c1748877eb4" />
+
+<img width="612" height="272" alt="Event" src="https://github.com/user-attachments/assets/6b783793-c5dc-4c1c-b54f-719a38dcab73" />
+
+<img width="623" height="184" alt="EventSession" src="https://github.com/user-attachments/assets/cfa71f9a-96cc-4007-95e4-b129b03eaa83" />
+
+<img width="621" height="328" alt="Session" src="https://github.com/user-attachments/assets/0c8a9d41-6b91-4644-bcdc-5c1b91a8ac26" />
+
+<img width="619" height="423" alt="Venue" src="https://github.com/user-attachments/assets/175509e1-d530-4ecf-8623-efafcdb0cf41" />
+
+<img width="615" height="261" alt="Spectator" src="https://github.com/user-attachments/assets/71c471bc-4e15-472a-a201-0c83902d2e80" />
+
+<img width="623" height="343" alt="Tickets" src="https://github.com/user-attachments/assets/37c4be93-328e-4c95-9a0d-8c0679a34699" />
+
 
 ## Query Complexity Matrix
 
