@@ -107,11 +107,17 @@ Identifies which countries are performing the best overall by calculating the to
 Determine the average ticket price per sport by looking at every event that has occurred and the ticket price. 
 
 ### Query 3: Total Athletes Registered per Country (Simple)
+<img width="567" height="67" alt="Screenshot 2026-03-30 at 1 31 28 PM" src="https://github.com/user-attachments/assets/939ec8e6-828b-4f8f-a55e-d1036e494308" />
+<br>
+<img width="166" height="199" alt="Screenshot 2026-03-30 at 1 31 53 PM" src="https://github.com/user-attachments/assets/46ebf993-4a44-4a9e-960c-e58b7387698e" />
 
 **Description:** 
 Lists every country alongside the total count of athletes they sent to the Olympics.
 
 ### Query 4: Staff Distribution by Role (Simple) 
+<img width="582" height="85" alt="Screenshot 2026-03-30 at 1 36 42 PM" src="https://github.com/user-attachments/assets/5c580324-992d-491f-9c73-8cf65463e13c" />
+<br>
+<img width="226" height="95" alt="Screenshot 2026-03-30 at 1 37 17 PM" src="https://github.com/user-attachments/assets/29344edd-66bb-4385-9c6f-9a2554405104" />
 
 **Description:** 
 Calculates the total number of registered staff members assigned to each specific job role (e.g., Head Coach, Assistant Coach, Medical).
