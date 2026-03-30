@@ -97,6 +97,7 @@ Our data model consists of 14 unique entities:
 
 **Description:** 
 Identifies which countries are performing the best overall by calculating the total number of medals won by their athletic delegation.
+<br>
 **Justification:**
 Query 1 allows managers or olympic fans to conscisely view the number of medals each country has been awarded. This is useful to assess which countries are in the lead by number of medals won. This allows country's olympic success to be compared and ranked in a simple manner, exlcuding factors other than event results. Query 1  allows a manager to analyze a country as a whole, including every event. This compares countries regardless of how many events they compete in but rather how they have competed in the olympics in its entirety.
 
@@ -106,7 +107,8 @@ Query 1 allows managers or olympic fans to conscisely view the number of medals 
 <img width="250" height="258" alt="Screenshot 2026-03-30 at 1 20 19 PM" src="https://github.com/user-attachments/assets/b1dedcfd-492d-47f1-ab5a-2c47310b6037" />
 
 **Description:** 
-Determine the average ticket price per sport by looking at every event that has occurred and the ticket price. 
+Determine the average ticket price per sport by looking at every event that has occurred and the ticket price.
+<br>
 **Justification:**
 Query 2 gives a manager perspective on event sporting event's ticket pricing. This query provides conglomerated data on the varying ticket prices across events. This provides comparable pricing data, displaying which events are more costly than others. It could also indicate which event's tickets may be in higher demand- indicated by a higher ticket price. This could provide insight into why certain events are attended more or less than others and which events that spectators would pay a higher ticket price for. 
 
@@ -117,6 +119,7 @@ Query 2 gives a manager perspective on event sporting event's ticket pricing. Th
 
 **Description:** 
 Lists every country alongside the total count of athletes they sent to the Olympics.
+<br>
 **Justification:**
 Query 3 provides a manager with a list of each country and the number of athletes present at the Olympics. This allows a manager to readily view which country sent the most athletes and which country sent the least. This may provide insight into a country's population size or their investment in Olympic athletes. Query 3 gives Olympic analysts insight into which country may produce more representation across sports. For example, a country with a low number of athletes present at the Olympic Games may not compete in as many events as a country with a higher number of athletes present.
 
@@ -127,6 +130,7 @@ Query 3 provides a manager with a list of each country and the number of athlete
 
 **Description:** 
 Calculates the total number of registered staff members assigned to each specific job role (e.g., Head Coach, Assistant Coach, Medical).
+<br>
 **Justification:**
 
 ### Query 5: Athletes Competing in Multiple Sports (Comp.)
@@ -136,6 +140,7 @@ Calculates the total number of registered staff members assigned to each specifi
 
 **Description:** 
 A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been to long to display)
+<br>
 **Justification:**
 
 ### Query 6: Events with Above-Average Ticket Prices (Comp.)
@@ -145,6 +150,7 @@ A composite list of every athlete that competes in more than one sport. (In this
 
 **Description:** 
 Identifies "Premium" events by calculating the average ticket price for each event and using a subquery to only list those that are strictly higher than the overall global average ticket price.
+<br>
 **Justification:**
 
 ### Query 7: Staff Managing Multiple Athletes (Comp.)
@@ -154,6 +160,7 @@ Identifies "Premium" events by calculating the average ticket price for each eve
 
 **Description:** 
 Uses the AthleteStaff bridge table to identify high-level staff members who are individually assigned to manage or care for two or more different athletes, alongside their specific role.
+<br>
 **Justification:**
 
 ### Query 8: Countries with More Medals than Staff (Comp.)
@@ -163,6 +170,7 @@ Uses the AthleteStaff bridge table to identify high-level staff members who are 
 
 **Description:** 
 Determine and list the countries that have a greater number of medals than staff members relative to that country. 
+<br>
 **Justification:**
 
 ### Query 9: Oldest Medalists per Sport (Comp.)
@@ -172,6 +180,7 @@ Determine and list the countries that have a greater number of medals than staff
 
 **Description:** 
 List the oldest medalists for each sport and include their name, age, and host country. 
+<br>
 **Justification:**
 
 ### Query 10: The Staff Hierarchy (Comp.)
@@ -181,4 +190,5 @@ List the oldest medalists for each sport and include their name, age, and host c
 
 **Description:**
 Utilizes a recursive self-join and an aggregate function to list every Supervisor alongside the exact count of how many subordinate staff members report directly to them.
+<br>
 **Justification:**
