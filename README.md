@@ -147,10 +147,13 @@ A composite list of every athlete that competes in more than one sport. (In this
 Identifies "Premium" events by calculating the average ticket price for each event and using a subquery to only list those that are strictly higher than the overall global average ticket price.
 **Justification:**
 
-### Query 7: Gold Medal Countries with No Registered Staff (Comp.)
+### Query 7: Staff Managing Multiple Athletes (Comp.)
+<img width="816" height="127" alt="Screenshot 2026-03-30 at 4 01 29 PM" src="https://github.com/user-attachments/assets/928b154f-e2e0-499c-b10c-e3d3280f5175" />
+<br>
+<img width="333" height="250" alt="Screenshot 2026-03-30 at 4 01 42 PM" src="https://github.com/user-attachments/assets/bb185563-90d4-4cee-99b5-cb5d61851f44" />
 
 **Description:** 
-List the countries that have been awarded a Gold medal but do not have any registered staff to their country. 
+Uses the AthleteStaff bridge table to identify high-level staff members who are individually assigned to manage or care for two or more different athletes, alongside their specific role.
 **Justification:**
 
 ### Query 8: Countries with More Medals than Staff (Comp.)
