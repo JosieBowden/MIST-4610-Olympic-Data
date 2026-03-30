@@ -99,6 +99,9 @@ Our data model consists of 14 unique entities:
 Identifies which countries are performing the best overall by calculating the total number of medals won by their athletic delegation.
 
 ### Query 2: Average Ticket Price per Sport (Simple)
+<img width="550" height="148" alt="Screenshot 2026-03-30 at 1 19 47 PM" src="https://github.com/user-attachments/assets/2a370085-8498-4c9d-b4a2-8e33008f71bd" />
+<br>
+<img width="250" height="258" alt="Screenshot 2026-03-30 at 1 20 19 PM" src="https://github.com/user-attachments/assets/b1dedcfd-492d-47f1-ab5a-2c47310b6037" />
 
 **Description:** 
 Determine the average ticket price per sport by looking at every event that has occurred and the ticket price. 
