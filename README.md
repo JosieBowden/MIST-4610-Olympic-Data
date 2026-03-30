@@ -91,6 +91,9 @@ Our data model consists of 14 unique entities:
 ## Ten Advanced Queries
 
 ### Query 1: Total Medals by Country (Simple)
+<img width="581" height="107" alt="Screenshot 2026-03-30 at 1 01 52 PM" src="https://github.com/user-attachments/assets/221683af-c035-40e1-b682-72830c30c22a" /> 
+<br>
+<img width="158" height="198" alt="Screenshot 2026-03-30 at 1 02 19 PM" src="https://github.com/user-attachments/assets/922fbfc8-1ad6-4116-a6d6-adbbab706703" />
 
 **Description:** 
 Identifies which countries are performing the best overall by calculating the total number of medals won by their athletic delegation.
