@@ -141,7 +141,10 @@ A composite list of every athlete that competes in more than one sport. (In this
 **Description:** 
 List the countries that have been awarded a Gold medal but do not have any registered staff to their country. 
 
-### Query 8: Countries with More Staff than Medals (Comp.)
+### Query 8: Countries with More Medals than Staff (Comp.)
+<img width="896" height="86" alt="Screenshot 2026-03-30 at 2 25 15 PM" src="https://github.com/user-attachments/assets/9a3a2479-c7a8-47ef-954d-82b0280fac1e" />
+<br>
+<img width="156" height="96" alt="Screenshot 2026-03-30 at 2 25 38 PM" src="https://github.com/user-attachments/assets/385101ed-333d-4f20-b858-207179f9624d" />
 
 **Description:** 
 Determine and list the countries that have a greater number of staff members than medals won relative to that country. 
