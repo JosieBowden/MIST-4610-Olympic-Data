@@ -139,9 +139,9 @@ A composite list of every athlete that competes in more than one sport. (In this
 **Justification:**
 
 ### Query 6: Events with Above-Average Ticket Prices (Comp.)
-<img width="552" height="151" alt="Screenshot 2026-03-30 at 3 46 39 PM" src="https://github.com/user-attachments/assets/ae6e0422-0637-44e0-a314-1f33a1a98f52" />
+<img width="651" height="168" alt="Screenshot 2026-03-30 at 3 54 48 PM" src="https://github.com/user-attachments/assets/861b8bdb-dc54-4db3-91c3-d3b5844757f2" />
 <br>
-<img width="303" height="601" alt="Screenshot 2026-03-30 at 3 47 27 PM" src="https://github.com/user-attachments/assets/a705c1b5-a0d4-4b18-96f4-9199c01022cc" />
+<img width="411" height="444" alt="Screenshot 2026-03-30 at 3 55 47 PM" src="https://github.com/user-attachments/assets/a106f671-8d86-400d-a1ef-85f0ec7068d3" />
 
 **Description:** 
 Identifies "Premium" events by calculating the average ticket price for each event and using a subquery to only list those that are strictly higher than the overall global average ticket price.
