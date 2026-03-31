@@ -139,13 +139,14 @@ Query 4 lists the first name, last name, country, and date of birth of all athle
 Query 4 lists out Gen Z athletes from Japan, France, and Austria. This could be potentially useful data for the Olympics to understand which athletes younger audiences from those countries are more likely to know, so that they can include those athletes in some form of targeted marketing. This data can also be used to better understand these specific athletes’ preferences from these countries to make higher quality accommodations in terms of dietary preferences, living preferences, etc.
 
 ### Query 5: Athletes Competing in Multiple Sports (Comp.)
-<img width="773" height="127" alt="Screenshot 2026-03-30 at 2 02 45 PM" src="https://github.com/user-attachments/assets/b0067bac-c7f4-4326-a6b5-ded96930e6d7" />
-<br>
-<img width="280" height="214" alt="Screenshot 2026-03-30 at 2 03 11 PM" src="https://github.com/user-attachments/assets/c47ed7ea-8563-4f0d-9a94-a0160d27c352" />
 
 **Description:** 
 A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been too long to display)
 <br>
+<img width="773" height="127" alt="Screenshot 2026-03-30 at 2 02 45 PM" src="https://github.com/user-attachments/assets/b0067bac-c7f4-4326-a6b5-ded96930e6d7" />
+<br>
+<img width="280" height="214" alt="Screenshot 2026-03-30 at 2 03 11 PM" src="https://github.com/user-attachments/assets/c47ed7ea-8563-4f0d-9a94-a0160d27c352" />
+
 **Justification:**
 Query 5 is useful for managers to have a list of athletes that compete in more than one sport (limited to 3). This is useful for broadcasters to provide insight to listeners on an Olympian’s experience or skill level. This information is useful for coordinators to understand which olympian may require additional accommodations such as transportation between their various events. Additionally, it could be useful for analysts to compare the performance of Olympians who compete in more or less sports than other given Olympians. 
 
