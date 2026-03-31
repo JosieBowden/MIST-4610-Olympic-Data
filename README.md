@@ -93,7 +93,7 @@ Our data model consists of 14 unique entities:
 ### Query 1: Total Medals by Country (Simple)
 
 **Description:** 
-Query 1 lists the total number of medals won by each country while ordering the from highest amount to lowest. This query joins together the Country, Athlete, and Results tables in order to count the number of medals associated with each country's athletes. The results are filtered to only include rows where a medal was awarded. Then that data is grouped by country name and ordered in descending order of total medals won.
+Query 1 lists the total number of medals won by each country while ordering them from highest amount to lowest. This query joins together the Country, Athlete, and Results tables in order to count the number of medals associated with each country's athletes. The results are filtered to only include rows where a medal was awarded. Then that data is grouped by country name and ordered in descending order of total medals won.
 <br>
 <img width="581" height="107" alt="Screenshot 2026-03-30 at 1 01 52 PM" src="https://github.com/user-attachments/assets/221683af-c035-40e1-b682-72830c30c22a" /> 
 <br>
@@ -144,7 +144,7 @@ Query 4 lists out Gen Z athletes from Japan, France, and Austria. This could be 
 <img width="280" height="214" alt="Screenshot 2026-03-30 at 2 03 11 PM" src="https://github.com/user-attachments/assets/c47ed7ea-8563-4f0d-9a94-a0160d27c352" />
 
 **Description:** 
-A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been to long to display)
+A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been too long to display)
 <br>
 **Justification:**
 Query 5 is useful for managers to have a list of athletes that compete in more than one sport (limited to 3). This is useful for broadcasters to provide insight to listeners on an Olympian’s experience or skill level. This information is useful for coordinators to understand which olympian may require additional accommodations such as transportation between their various events. Additionally, it could be useful for analysts to compare the performance of Olympians who compete in more or less sports than other given Olympians. 
