@@ -198,12 +198,13 @@ Query 9 lists the oldest medal-winning athlete for each sport, their name, and a
 Query 9 shows a manager an itemized list by sport, the oldest olympian’s name, age and host country. This could be useful for coordinators or broadcasters to recognize by name and host country the oldest Olympian competing in each sport. Using this query, each sport could be compared to determine which sport has the oldest competing olympian or to determine how many countries have the same aged oldest olympian. 
 
 ### Query 10: The Staff Hierarchy (Comp.)
-<img width="745" height="128" alt="Screenshot 2026-03-30 at 3 08 30 PM" src="https://github.com/user-attachments/assets/227c83ff-60be-4d87-ab1c-45c54c759bec" />
-<br>
-<img width="372" height="497" alt="Screenshot 2026-03-30 at 3 08 55 PM" src="https://github.com/user-attachments/assets/32802725-1dbb-4320-9d90-b6684a087c55" />
 
 **Description:**
 Utilizes a recursive self-join and an aggregate function to list every Supervisor alongside the exact count of how many subordinate staff members report directly to them.
 <br>
+<img width="745" height="128" alt="Screenshot 2026-03-30 at 3 08 30 PM" src="https://github.com/user-attachments/assets/227c83ff-60be-4d87-ab1c-45c54c759bec" />
+<br>
+<img width="372" height="497" alt="Screenshot 2026-03-30 at 3 08 55 PM" src="https://github.com/user-attachments/assets/32802725-1dbb-4320-9d90-b6684a087c55" />
+
 **Justification:**
 Query 10 allows a manager to view how many subordinates report to each supervisor. This is useful for an Olympic analyst to consider or compare the size of each supervisor’s staff. This is also useful for Olympic coordinators to provide accommodations for staff that may differ from elite accommodations provided to supervisors. Additionally, for Olympic analysts- correlations between staff sizes and winning teams could be easily compared with this query. 
