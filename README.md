@@ -96,7 +96,7 @@ Our data model consists of 14 unique entities:
 <img width="158" height="198" alt="Screenshot 2026-03-30 at 1 02 19 PM" src="https://github.com/user-attachments/assets/922fbfc8-1ad6-4116-a6d6-adbbab706703" />
 
 **Description:** 
-Identifies which countries are performing the best overall by calculating the total number of medals won by their athletic delegation.
+Query 1 lists the total number of medals won by each country while ordering the from highest amount to lowest. This query joins together Country, Athlete, and Results tables in order to count the number of medals associated with each country's athletes. The results are filtered to only include rows where a medal was awardded. Then that data is grouped by country name and ordered in descending order of total medals won.
 <br>
 **Justification:**
 Query 1 allows managers or olympic fans to conscisely view the number of medals each country has been awarded. This is useful to assess which countries are in the lead by number of medals won. This allows country's olympic success to be compared and ranked in a simple manner, exlcuding factors other than event results. Query 1  allows a manager to analyze a country as a whole, including every event. This compares countries regardless of how many events they compete in but rather how they have competed in the olympics in its entirety.
